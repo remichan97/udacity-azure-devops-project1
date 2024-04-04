@@ -33,8 +33,9 @@ variable "vm_count" {
 }
 
 variable "subscription_id" {
-  description = "The Subscription ID of the Azure Subscription. This is mandatory, no defaults will be provided"
+  description = "The Subscription ID of the Azure Subscription."
   type = string
+  default = "value"
 }
 
 variable "packer-image-name" {

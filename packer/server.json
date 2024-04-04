@@ -18,7 +18,7 @@
 			"image_sku": "22_04-lts",
 			"managed_image_resource_group_name": "{{ user `resource_group` }}",
 			"managed_image_name": "{{ user `image_name` }}",
-			"location": "East US",
+			"location": "eastus",
 			"vm_size": "Standard_B1s",
 			"azure_tags": {
 				"dept": "Engineering",
