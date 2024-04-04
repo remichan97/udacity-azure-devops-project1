@@ -1,0 +1,7 @@
+{
+	"client_id": "insert your client_id here",
+	"client_secret": "insert your client_secret here",
+	"subscription_id": "insert your Azure subscription ID here",
+	"resource_group": "udacity-devops",
+	"image_name": "packer-images"
+}

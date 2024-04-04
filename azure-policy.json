@@ -1,15 +1,9 @@
 {
 	"if": {
-		"anyOf": [
-			{
-				"field": "tags",
-				"exists": false
-			},
-			{
-				"field": "tags",
-				"equals": ""
-			}
-		]
+		"not": {
+			"field": "tags",
+			"exists": true
+		}
 	},
 	"then": {
 		"effect": "deny"
